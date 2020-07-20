@@ -26,19 +26,34 @@ hr{
   border-width: 6px;
   width: 10%;
 }
+p{
+  color: #40514e;
+}
+a{
+  color:#11999e;
+  font-weight: bold;
+  margin:0 15px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+a:hover{
+  color: #eaf6f6;
+}
 
 .top-cloud{
   position: absolute;
-  right: 400px;
+  right: 300px;
   top: 40px;
 }
 
 .bottom-cloud{
   position: absolute;
-  left:300px;
+  left:250px;
   bottom: 300px;
 }
-
+.profile{
+  margin-bottom: 30px;
+}
 
 .top-container{
   background-color:#eaf6f6;
@@ -48,6 +63,7 @@ hr{
 
 .middle-container{
   background-color: white;
+  margin: 100px auto;
 }
 
 .bottom-container{
@@ -56,18 +72,16 @@ hr{
 .web-design{
   font-weight: normal;
 }
-a{
-  color:#11999e;
-  font-weight: bold;
-  margin:0 15px;
-  text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
-}
+
 .skill-row{
   width: 50%;
   margin:100px auto;
   text-align: left;
   line-height: 2;
+}
+.propic{
+  width:15%;
+
 }
 
 .skills1{
@@ -86,9 +100,7 @@ a{
 .code-skill-description1{
   clear: right;
 }*/
-p{
-  color: #40514e;
-}
+
 .intro{
   width: 40%;
   margin:0 auto;
@@ -109,8 +121,9 @@ p{
 }
 .copy{
   color: #eaf6f6;
+  font-size: 0.75rem;
   margin:0 auto 30px auto;
-  width: 30%;
+  width: 20%;
 }
 .btn {
   margin: 40px auto 0 auto;
