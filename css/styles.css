@@ -109,6 +109,8 @@ p{
 }
 .copy{
   color: #eaf6f6;
+  margin:0 auto 30px auto;
+  width: 30%;
 }
 .btn {
   margin: 40px auto 0 auto;
@@ -133,4 +135,8 @@ p{
 .btn:active {
 	position:relative;
 	top:1px;
+}
+.collaborate{
+  margin:0 auto 30px auto;
+  width: 30%;
 }
